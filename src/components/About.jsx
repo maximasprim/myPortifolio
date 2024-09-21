@@ -1,12 +1,12 @@
 import React from "react";
 import kyu_logo2 from '../assets/icons/kyu_logo2.png';
-import alx from '../assets/icons/alx.png';
+import img from '../assets/receiving certificate.jpg'
 import aberdare from '../assets/icons/aberdare.jpg';
 
 const About = () => {
   const education = [
     { id: 1, name: 'Computer Science', description: 'at Kirinyaga University graduating in October 2025', image: kyu_logo2 },
-    { id: 2, name: 'Software Engineering', description: 'Peer-to peer software engineering bootcamp Graduate August 2023', image: alx },
+    { id: 2, name: 'Software Engineering', description: 'Teach2Give Graduate July 2024', image: img },
     { id: 3, name: 'Aberdare Insitute of Catering', description: 'Diploma in Food Production graduated in December 2021', image: aberdare },
   ]
   return (
