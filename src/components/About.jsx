@@ -7,7 +7,7 @@ const About = () => {
   const education = [
     { id: 1, name: 'Computer Science', description: 'at Kirinyaga University graduating in October 2025', image: kyu_logo2 },
     { id: 2, name: 'Software Engineering', description: 'Teach2Give Graduate July 2024', image: img },
-    { id: 3, name: 'Aberdare Insitute of Catering', description: 'Diploma in Food Production graduated in December 2021', image: aberdare },
+    // { id: 3, name: 'Aberdare Insitute of Catering', description: 'Diploma in Food Production graduated in December 2021', image: aberdare },
   ]
   return (
     <div className="md:px-10 px-7 sm:-mt-10" id="about">
